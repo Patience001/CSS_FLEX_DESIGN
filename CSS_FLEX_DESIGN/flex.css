@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color:  hsl(0, 0%, 95%);
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.card-one {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    justify-content: space-between;
+}
+.btn-one {
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 40px;
+     padding: 10px 22px 10px 22px;  
+    
+}
+.one{
+    color:hsl(31, 77%, 52%);
+    text-decoration: none;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: 700;
+}
+p  {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 2rem 0rem 0rem 0rem;
+    height: 50%;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.card-two {
+ background-color: hsl(184, 100%, 22%);
+ padding: 40px;
+}
+.btn-two {
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 40px;
+     padding: 10px 22px 10px 22px;  
+   
+}
+.two {
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+.card-three {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.btn-three {
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 22px 10px 22px; 
+}
+.three {
+   color: hsl(179, 100%, 13%); 
+   text-decoration: none;
+   
+}
+.sub-container {
+    display: flex;
+    height: 65vh;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.btn {
+
+    justify-content: start;
+}
